@@ -1,0 +1,40 @@
+#配置单个的属性
+name: zhangsan
+
+#配置一个对象
+person:
+  name: zhangsan
+  age: 18
+  addr: hangzhou
+
+#person2: {name: zhangsan,age: 19,addr: beijing}
+
+#配置一个数组，集合（字符串）
+
+people: 
+  - zhangsan
+  - lisi
+  - wangwu
+ 
+#people2: [zhangsan,lisi,wangwu]
+
+#配置一个数组，集合（对象）
+
+students:
+  - name: zhangsan
+    age: 18
+    addr: beijing
+  - name: lisi
+    age: 22
+    addr: henan
+  
+  
+#students2: [{name: zhangsan,age: 14,addr: shanghai},{name: lisi,age: 24,addr: nanjing}] 
+
+
+#mapper配置
+map:
+  key1: value1
+  key2: value2
+
+ 
